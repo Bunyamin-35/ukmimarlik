@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 .App {
   text-align: center;
 }
@@ -17,7 +18,7 @@
 }
 
 .App-header {
-  background:url("https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80");
+  background:url(./assets/bgp.jpg);
   background-position: center;
   background-size:cover;
   min-height: 100vh;
@@ -46,17 +47,17 @@ p {
   align-items: center;
   color: #333;
   font-size: 2rem;
-  font-weight: 800;
-  background: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-weight:500;
+  /* background: #fff; */
   border-radius: 1rem;
+  margin-top: 5rem;
   padding: .5rem 1rem;
   cursor: pointer;
   transition: all 0.5s;
 }
 p:hover {
-  color: #fff;
-  background: #333;
-
+  font-size: 2.1rem;
 }
 .social_media {
   display: flex;
@@ -69,7 +70,7 @@ p:hover {
   margin: 1rem;
   font-size: 2rem;
   color: #333;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 50%;
   transition: all 0.3s;
 }
@@ -93,15 +94,21 @@ p:hover {
 
 
 /* Loader */
-.loader-pulse {
-  width: 10rem;
-  height: 10rem;
-  padding: 1rem;
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 18rem;
+  /* padding: 5rem; */
   border-radius: 50%;
-  background:#fff;
+  /* background:#fff; */
   animation: load-pulse 2s infinite linear;
 }
-
+.item .loader-pulse{
+  width: 20rem;
+  height: auto;
+}
 @keyframes load-pulse {
   0% {
     opacity: 0.15;
@@ -131,3 +138,14 @@ p:hover {
   }
 }
 /* Loader */
+
+.App-header .mail {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.5s;
+}
+.App-header .mail:hover {
+  border-bottom: 1px solid #333;
+  font-size: 1.5rem;
+}

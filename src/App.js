@@ -1,4 +1,4 @@
-import logo from './assets/logo.png';
+import logo from './assets/logobgsuz2.png';
 import './App.css';
 import { FacebookFilled, TwitterCircleFilled, InstagramFilled, LinkedinFilled } from '@ant-design/icons';
 
@@ -18,7 +18,7 @@ function App() {
           <div className='social_media'>
             <a
               className="facebook"
-              href="https://reactjs.org"
+              href="https://instagram.com/ubeydekaradenizmimarlik"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -26,7 +26,7 @@ function App() {
             </a>
             <a
               className="twitter"
-              href="https://reactjs.org"
+              href="https://instagram.com/ubeydekaradenizmimarlik"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,7 @@ function App() {
             </a>
             <a
               className="instagram"
-              href="https://reactjs.org"
+              href="https://instagram.com/ubeydekaradenizmimarlik"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,13 +42,14 @@ function App() {
             </a>
             <a
               className="linkedin"
-              href="https://reactjs.org"
+              href="https://instagram.com/ubeydekaradenizmimarlik"
               target="_blank"
               rel="noopener noreferrer"
             >
               <LinkedinFilled />
             </a>
           </div>
+          <a className='mail' href="mailto:info@ubeydekaradenizmimarlik.com">info@ubeydekaradenizmimarlik.com</a>
         </header>
       </div>
     </>
