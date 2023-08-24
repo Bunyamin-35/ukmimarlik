@@ -1,17 +1,14 @@
 //import logo from './assets/logobgsuz2.png';
 import './App.css';
 //import { FacebookFilled, TwitterCircleFilled, InstagramFilled, LinkedinFilled } from '@ant-design/icons';
-
+import { Route,Routes } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <h1 className="text-3xl text-center text-[#3334] font-bold underline">
-          Hello world!
-        </h1>
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+    </Routes>
   );
 }
 
