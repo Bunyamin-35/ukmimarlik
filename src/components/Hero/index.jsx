@@ -4,8 +4,8 @@ import image3 from "../../assets/Adsız_tasarım__3_-removebg-preview.png"
 import "../../App.css"
 const Hero = () => {
     return (
-        <section>
-            <div className="bg-black text-white py-20 absolute top-0 left-0 w-full -z-50">
+        <section className=''>
+            <div className="bg-black text-white py-20">
                 <div className="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
                     <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
                         <h1 className="text-3xl md:text-5xl  text-yellow-300 tracking-loose">UK</h1>
