@@ -11,16 +11,9 @@ const Contactus = () => {
 
                     <p class="mt-3 text-gray-500 dark:text-gray-400">Uzman kadromuzla, sizinle tanışmak için sabırsızlanıyoruz.</p>
                 </div>
-
                 <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
-
-
                     <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
-
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12188.145368446989!2d29.00027524760788!3d40.208254530977555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca15d0843754b9%3A0xbc2ecfb82acab6cc!2sDikkald%C4%B1r%C4%B1m%2C%2016090%20Osmangazi%2FBursa!5e0!3m2!1str!2str!4v1693043755145!5m2!1str!2str" width="100%" height="100%" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" ></iframe>
-
-
-                        {/* <iframe width="100%" height="100%" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe> */}
                     </div>
                     <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
                         <div>
