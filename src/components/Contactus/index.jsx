@@ -5,11 +5,11 @@ const Contactus = () => {
         <section class="bg-gray-900">
             <div class="container px-6 py-12 mx-auto">
                 <div>
-                    <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+                    {/* <p class="font-medium text-blue-500 dark:text-blue-400">İletişim</p> */}
 
-                    <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+                    <h1 class="mt-2 text-2xl font-semibold text-blue-500 md:text-3xl dark:text-white">İletişim</h1>
 
-                    <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team would love to hear from you.</p>
+                    <p class="mt-3 text-gray-500 dark:text-gray-400">Uzman kadromuzla, sizinle tanışmak için sabırsızlanıyoruz.</p>
                 </div>
 
                 <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
@@ -26,9 +26,9 @@ const Contactus = () => {
                                 </svg>
                             </span>
 
-                            <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                            <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                            <h2 class="mt-4 text-base font-medium text-gray-500 dark:text-white">E-mail</h2>
+                            {/* <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p> */}
+                            <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">info@ubeydekaradenizmimarlik.com</p>
                         </div>
 
                         <div>
@@ -39,8 +39,8 @@ const Contactus = () => {
                                 </svg>
                             </span>
 
-                            <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                            <h2 class="mt-4 text-base font-medium text-gray-500 dark:text-white">Ofis</h2>
+                            {/* <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p> */}
                             <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
                         </div>
 
@@ -51,9 +51,9 @@ const Contactus = () => {
                                 </svg>
                             </span>
 
-                            <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
-                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
-                            <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                            <h2 class="mt-4 text-base font-medium text-gray-500 dark:text-white">Telefon</h2>
+                            <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Pazartesi-Cumartesi 08:00/20:00</p>
+                            <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+90 (535) 358 02 61</p>
                         </div>
                     </div>
                 </div>

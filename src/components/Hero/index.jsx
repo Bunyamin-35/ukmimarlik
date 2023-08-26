@@ -10,14 +10,14 @@ const Hero = () => {
                     <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
                         <span class="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
                         </span>
-                        <h1 class="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
-                            Be on
-                            <span class="text-5xl sm:text-7xl">
-                                Time
+                        <h1 class="font-bebas-neue uppercase mb-1 text-5xl sm:text-7xl font-black flex flex-col leading-none dark:text-white text-gray-800">
+                            Mekana
+                            <span class="text-4xl sm:text-6xl">
+                                Değer Katan <span class="text-4xl sm:text-6xl text-white">Tasarımlar</span>
                             </span>
                         </h1>
                         <p class="text-sm sm:text-base text-white">
-                            Dimension of reality that makes change possible and understandable. An indefinite and homogeneous environment in which natural events and human existence take place.
+                            Amacımız, yaşam alanlarınızı ve iş mekanlarınızı fonksiyonel, estetik ve sürdürülebilir bir şekilde şekillendirerek hayatınıza değer katmaktır.
                         </p>
                         <div class="flex mt-8">
                             {/* <a href="#" class="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
