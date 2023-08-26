@@ -5,10 +5,18 @@
 .custom-img {
     background-image: url("https://images.unsplash.com/photo-1628394029761-acc83a2a08a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80");
 }
-
+.custom-img_2 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg");
+}
 .bg_image {
     /* background-image: url("/src/assets/bgp.jpg"); */
     background-image: url("https://images.unsplash.com/photo-1531591022136-eb8b0da1e6d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80");
     background-size: cover;
     background-position: end;
+}
+
+.active {
+    --tw-text-opacity: 1;
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+    font-weight: 600;
 }
